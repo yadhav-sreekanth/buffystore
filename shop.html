@@ -609,17 +609,13 @@ No matching products found
         filtered.forEach(product => {
 
             const msg = `
-🛍️ *BUFFY STORE*
-
+*BUFFY STORE*
 I want this product:
 
-📦 ${product.name}
-
-💰 Price: ₹${product.rate}
-
-📏 Sizes: ${(product.sizes || []).join(', ')}
-
-🖼️ Image:
+${product.name}
+Price: ₹${product.rate}
+Sizes: ${(product.sizes || []).join(', ')}
+Image:
 ${product.image_url}
 `;
 
